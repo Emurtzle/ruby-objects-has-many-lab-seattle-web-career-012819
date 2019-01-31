@@ -27,5 +27,4 @@ class Author
       total += element.posts.size
     end
   end
-
 end
