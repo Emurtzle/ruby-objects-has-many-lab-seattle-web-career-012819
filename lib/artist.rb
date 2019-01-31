@@ -25,6 +25,6 @@ class Artist
     @@all.each do |element|
       total += element.songs.size
     end
+    total
   end
-  total
 end
