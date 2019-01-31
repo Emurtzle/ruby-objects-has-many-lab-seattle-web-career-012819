@@ -20,5 +20,12 @@ class Author
     post.author = self
   end
 
+  def self.post_count
+    total = 0
+
+    @@all.each do |element|
+      total += element.posts.size
+    end
+  end
 
 end
