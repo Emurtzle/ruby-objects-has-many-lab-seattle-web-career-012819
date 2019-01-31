@@ -26,4 +26,5 @@ class Artist
       total += element.songs.size
     end
   end
+  total
 end
