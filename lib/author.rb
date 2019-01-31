@@ -26,5 +26,6 @@ class Author
     @@all.each do |element|
       total += element.posts.size
     end
+    total
   end
 end
