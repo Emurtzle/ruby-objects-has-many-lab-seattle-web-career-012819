@@ -20,6 +20,10 @@ class Artist
   end
 
   def self.song_count
+    total = 0
 
+    @@all.each do |element|
+      element.songs.size
+    end
   end
 end
